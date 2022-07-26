@@ -8,7 +8,7 @@ I've broken the days down into the sections aligned with the [exam curriculum](h
 
 ### Cluster Architecture, Installation & Configuration 👷🏻‍♂️
 
-- [x] Day 1
+- [] Day 1
 - [] Day 2
 - [] Day 3
 - [] Day 4
