@@ -6,7 +6,7 @@ Although I appreciate that this is probably not massively useful to pass the CKA
 
 ## What is Kubernetes? 
 
-To quote the official documentaion:
+To quote the official documentation:
 
 "Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation."
 
@@ -24,7 +24,7 @@ Kubernetes is a platform in which many technology products can, and have, extend
 
 ### Open source
 
-Yup it's free! (well kind of). Kubernetes was open sourced by Google in 2014, so you can take actually see and contribute to the source code! Cool right! But before you go writing graffiti all over it there is quite a rigourous process to actually have your changes accepted to main Kuberenetes release branch. If you are interesting in this you can read more about the process [here]()
+Yup it's free! (well kind of). Kubernetes was open sourced by Google in 2014, so you can take actually see and contribute to the source code! Cool right! But before you go writing graffiti all over it there is quite a rigorous process to actually have your changes accepted to main Kubernetes release branch. If you are interesting in this you can read more about the process [here]()
 
 ### Containerized workloads
 
@@ -33,9 +33,9 @@ Containers are a result of the continuing abstraction of the application from th
 #### Traditional Hardware
 One or more applications are installed on an operating system which in turn runs on some physical hardware. 
 
-Applications ran on an operating system sitting ontop of physical hardware. This resulted in multiple applications and services fighting for resources which required additional hardware to either extend or seperate workloads. A good day for the hardware maintenors and vendors, not so much for application developers! 
+Applications ran on an operating system sitting on top of physical hardware. This resulted in multiple applications and services fighting for resources which required additional hardware to either extend or separate workloads. A good day for the hardware maintainers and vendors, not so much for application developers! 
 
-As we all know, deploying and maintaining applications in this way may have kept a number of sysadmins in a job for a long time, but it has in no way helped the progression of modern applications and services! Next came virtualised deployments, hardware "carved" up to support multiple virtual servers running on the same hardware. Although this resulted in better use of hardware and application seperation, maintenance and environment drift was still all too common. 
+As we all know, deploying and maintaining applications in this way may have kept a number of sysadmins in a job for a long time, but it has in no way helped the progression of modern applications and services! Next came virtualized deployments, hardware "carved" up to support multiple virtual servers running on the same hardware. Although this resulted in better use of hardware and application separation, maintenance and environment drift was still all too common. 
 
 ### Declarative configuration 
 

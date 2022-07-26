@@ -6,7 +6,6 @@ I've broken the days down into the sections aligned with the [exam curriculum](h
 
 ## Progress
 
----
 
 - [] 1 > [Introduction](/Days/day1.md)
 
@@ -18,7 +17,7 @@ I've broken the days down into the sections aligned with the [exam curriculum](h
 - [] 5 > 
 - [] 6 > 
 
-### Workloads and Scheduling 
+### Workloads and Scheduling    
 
 
 
