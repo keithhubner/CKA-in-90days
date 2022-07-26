@@ -6,15 +6,19 @@ I've broken the days down into the sections aligned with the [exam curriculum](h
 
 ## Progress
 
+---
+
+- [] 1 > [Introduction](/Days/day1.md)
+
 ### Cluster Architecture, Installation & Configuration 👷🏻‍♂️
 
-- [] Day 1
-- [] Day 2
-- [] Day 3
-- [] Day 4
-- [] Day 5
+- [] 2 > 
+- [] 3 > 
+- [] 4 > 
+- [] 5 > 
+- [] 6 > 
 
-
+### Workloads and Scheduling 
 
 
 
