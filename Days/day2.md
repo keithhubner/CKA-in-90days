@@ -1,12 +1,37 @@
-# Day 2 -  Building a Kubernetes Cluster Part 1
+# Day 2 - Cluster Architecture 
 
-Nothing beats rolling your sleeves up and getting stuck into some hands on work to get familiar with technology. In the next few days we will be
+## Overview
 
-## Setting up the lab
+A Kubernetes cluster is made up of a number of nodes, traditionally these are split into nodes which run workloads i.e. containers and a node (or potentially multiple in a HA environment) which runs the "control plane". The control plane is the "brain" which manages what runs where and how. 
 
-There are a number of cloud infrastructure providers out there you can use to spin up you Kubernetes cluster. I will be deploying my cluster onto the [Civo](www.civo.com) platform. Although IaC (Infrastructure as code) is beyond the scope of the CKA curriculum, it's good to get familiar with these technologies if you are not already. Using Terraform to provision our infrastructure will give us a secure, quick and repeatable process. It also allows us to spin our resources up and down quickly to save cost.
+Each "worker node" includes 3 main components, the [kubelet](https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/) (agent), a [container runtime])(https://kubernetes.io/docs/setup/production-environment/container-runtimes/) (the software that runs the containers, e.g. Docker Engine, containerd) and the [kube-proxy](https://kubernetes.io/docs/reference/command-line-tools-reference/kube-proxy/) (networking proxy).
 
-I have 
+> Take time to read each to the links to get a full understanding of what these node components do.
 
 
 
+kube-apiserver
+
+communication from outside and inside the cluster
+
+## kube-proxy
+Rules that allow 
+
+## kube-scheduler
+Status of nodes and what's running on them
+
+
+## Controller manager:
+node-controller 
+replication-controller
+
+
+
+
+
+
+## etcd
+
+
+
+Container Runtimes
