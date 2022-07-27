@@ -1,4 +1,7 @@
 # Query small instance size
+
+# IMPORTANT - There is currently a bug in the Civo provider when trying to destroy the environment, this is currently being investigated. This results in manually deleting the network and firewall from Civo and resetting the terraform state.
+
 data "civo_size" "small" {
     filter {
         key = "name"

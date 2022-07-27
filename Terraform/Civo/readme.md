@@ -1,5 +1,7 @@
 # Setting up the Civo Terraform provider Securely
 
+> IMPORTANT - There is currently a bug in the Civo provider when trying to destroy the environment, this is currently being investigated. This results in manually deleting the network and firewall from Civo and resetting the terraform state.
+
 To ensure your API key is kept secret it is important that this is not included in your terraform code. This guide shows how to store the API key as an environment variable, you could store this value in the .tfvars file but you could argue that anything written in code is vulnerable to accidental or malicious exposure. 
 
 First create an environment variable which will only reside on your local machine:
