@@ -41,6 +41,9 @@ resource "civo_firewall" "lab_firewall" {
     network_id = civo_network.custom_network.id
     region = "LON1"
     create_default_rules = false
+    depends_on = [
+    civo_network.custom_network
+    ]
 }
 
 # Create a firewall rule
@@ -53,6 +56,7 @@ resource "civo_firewall_rule" "ssh" {
     direction = "ingress"
     label = "ssh"
     action = "allow"
+    depends_on = [civo_firewall.lab_firewall]
 }
 
 resource "civo_firewall_rule" "deny_tcp" {
