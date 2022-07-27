@@ -4,6 +4,12 @@ Learning in public is a great way to ensure you actually complete something, but
 
 I've broken the days down into the sections aligned with the [exam curriculum](https://github.com/cncf/curriculum/blob/master/CKA_Curriculum_v1.24.pdf). The content for each day should take no longer than an hour to complete. This should allow anyone following this guide to go at their own pace.
 
+## What you should know already
+
+This guide is focussed on what you need to know to pass the CKA. However anyone following this guide should have a good understanding of the following:
+
+* Terraform and IaC
+
 ## Progress
 
 
@@ -12,12 +18,14 @@ I've broken the days down into the sections aligned with the [exam curriculum](h
 ### Cluster Architecture, Installation & Configuration 👷🏻‍♂️
 
 - [] 2 > 
-- [] 3 > 
-- [] 4 > 
-- [] 5 > 
-- [] 6 > 
 
-### Workloads and Scheduling    
+### Workloads and Scheduling   
+
+### Services and Networking
+
+### Storage
+
+### Troubleshooting
 
 
 
