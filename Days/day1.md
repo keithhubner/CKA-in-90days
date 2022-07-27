@@ -10,7 +10,7 @@ To quote the official documentation:
 
 "Kubernetes is a portable, extensible, open source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation."
 
-OK that's that...moving on.... Whoa there, what the hell does that actually mean! 
+OK that's that...moving on.... whoa there, what the hell does that actually mean! 
 
 ### Portable 
 
@@ -33,16 +33,27 @@ Containers are a result of the continuing abstraction of the application from th
 #### Traditional Hardware
 One or more applications are installed on an operating system which in turn runs on some physical hardware. 
 
-Applications ran on an operating system sitting on top of physical hardware. This resulted in multiple applications and services fighting for resources which required additional hardware to either extend or separate workloads. A good day for the hardware maintainers and vendors, not so much for application developers! 
+Applications ran on an operating system sitting on top of physical hardware. This resulted in multiple applications and services fighting for resources which required additional hardware to either extend or separate workloads. A good day for the hardware maintainers and vendors, a bad day for us! 
 
-As we all know, deploying and maintaining applications in this way may have kept a number of sysadmins in a job for a long time, but it has in no way helped the progression of modern applications and services! Next came virtualized deployments, hardware "carved" up to support multiple virtual servers running on the same hardware. Although this resulted in better use of hardware and application separation, maintenance and environment drift was still all too common. 
+#### Virtualization  
+Next came virtualized deployments, hardware "carved" up to support multiple virtual servers running on the same hardware. Although this brings better use of hardware and introduces application separation, maintenance and environment drift is still a problem. In fact in many situations maintaining 3 servers has turned into maintaining 30!   
 
 ### Declarative configuration 
 
+Declarative configuration in a nutshell means, this is the state i'm supposed to be in and i'll make sure it is maintained. For example, if you have a deployment in Kubernetes which has 3 pods (we'll get to them later) then you manually delete one, Kubernetes will spin up another pod to ensure there are still 3. This is extremely powerful as it means that the only way a configuration is changed is if you declare that change in configuration. 
+
 ### Automation
 
-## What is it used for?
+Due to the declarative nature of Kubernetes, everything we do "talks" to the Kubernetes API to declare the state of our applications and services. This lends itself well to automation integrations, for example CI/CD, but that's one for another day!
+
+## What is Kubernetes used for?
+
+The answer to that is pretty much any software application that requires a distributed and resilient infrastructure. 
 
 ## Who uses Kubernetes?
 
-## 
+A better question would be who doesn't use Kubernetes! Kubernetes adoption has gone from strength to strength and is now one of the most, if not the most, used product for managing and running cloud based applications. 
+
+## Summary
+
+That's everything for today, a brief overview of what Kubernetes is and why we should be using it, tomorrow we look at what actually makes a Kubernetes cluster! 
